@@ -4,7 +4,14 @@ var Nav = React.createClass({
 	render: function () {
 		return (
 			<div className="nav">
-				Nav
+			hhhhhhhhhh
+
+				<button onClick={this.handleClick} style="color: blue"; class='button button-blue'>
+				  <b>
+				  	{this.state.isToggleOn ? 'ON' : 'OFF'}
+				  </b>
+				</button>
+
 			</div>
 		);
 	}

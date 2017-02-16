@@ -14,5 +14,3 @@ var App = React.createClass({
 
 
 ReactDom.render(<App />, document.getElementById('app'));
-
-// <App /> <App></App> <div /> <div></div>
